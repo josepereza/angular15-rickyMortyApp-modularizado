@@ -1,0 +1,16 @@
+<div class="container">
+  
+    <div *ngFor="let item of personajes" class="card">
+
+        <a [routerLink]="['/character-details', item.id]">
+            <img
+              width="100%"
+              [src]="item.image"
+              [alt]="item.name"
+              class="card-img-top"
+            />
+          </a>
+        <p>{{ item.name }}</p>
+      </div>
+ 
+</div>
