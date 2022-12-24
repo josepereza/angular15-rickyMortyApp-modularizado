@@ -1,6 +1,8 @@
 # RickyMortyApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
+## Tutorial
+* https://www.youtube.com/watch?v=hGU2ceM8aVY
 
 ![images](rickymorty.png)
 ## Development server
